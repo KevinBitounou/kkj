@@ -1,0 +1,27 @@
+/*
+programme: Kevin Bitounou
+date: 19/05/2019
+but: calcul vitesse
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+	double vitesse;
+	double distance;
+	double temps;
+
+	cout << "ecrivez la distance en m \n";
+	cin >> distance;
+	cout << "entrez le temps en seconde que ca a prit pour parcourir cette distance \n";
+	
+	cin >> temps;
+
+	vitesse = distance/temps;
+	cout << "la vitesse est de" << vitesse << "m/sec";
+	
+	return 0;
+}
+
