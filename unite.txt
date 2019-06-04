@@ -1,5 +1,4 @@
-/*
-programme: Kevin Bitounou
+
 date: 19/05/2019
 but: calcul vitesse
 */
@@ -22,6 +21,5 @@ int main(void)
 	vitesse = distance/temps;
 	cout << "la vitesse est de" << vitesse << "m/sec";
 	
-	return 0;
-}
+	return 0;}
 
